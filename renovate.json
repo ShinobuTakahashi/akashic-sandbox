@@ -2,7 +2,8 @@
   "extends": [
     "github>akashic-games/renovate-config",
     "github>akashic-games/renovate-config:groupPatchMinor",
-    "github>akashic-games/renovate-config:bumpAkashicPatch"
+    "github>akashic-games/renovate-config:bumpAkashicPatch",
+    "github>akashic-games/renovate-config//engineFilesAlias/default"
   ],
   "automerge": true,
   "packageRules": [
