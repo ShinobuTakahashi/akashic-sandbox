@@ -22,7 +22,11 @@
     },
     {
         "matchUpdateTypes": ["major"],
-        "excludePackageNames": ["@akashic/akashic-engine"]
+        "excludePackagePatterns": ["@akashic/akashic-engine"]
+    },
+    {
+      "matchPackageNames": ["@akashic/akashic-engine"],
+      "allowedVersions": "<3.0"  
     }
   ]
 }
