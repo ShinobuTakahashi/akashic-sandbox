@@ -5,7 +5,7 @@
   "packageRules": [
     {
         "matchUpdateTypes": ["major"],
-        "excludePackageName": ["@akashic/akashic-engine"]
+        "excludePackageNames": ["@akashic/akashic-engine"]
     }
   ]
 }
