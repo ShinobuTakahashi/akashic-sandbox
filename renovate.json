@@ -1,12 +1,11 @@
 {
   "extends": [
-    "github>akashic-games/renovate-config",
+    "github>akashic-games/renovate-config"
   ],
-  "automerge": true,
   "packageRules": [
     {
         "matchUpdateTypes": ["major"],
-        "excludePackagePatterns": ["@akashic/akashic-engine"]
+        "excludePackageName": ["@akashic/akashic-engine"]
     }
   ]
 }
