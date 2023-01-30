@@ -23,7 +23,7 @@
     },
     {
         "matchUpdateTypes": ["major"],
-        "excludePackageNames": ["@akashic/akashic-engine"]
+        "excludePackagePatterns": ["@akashic/akashic-engine"]
     }
   ]
 }
