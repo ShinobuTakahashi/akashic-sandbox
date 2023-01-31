@@ -1,6 +1,19 @@
 {
   "extends": [
-    "github>akashic-games/renovate-config",
+    ":dependencyDashboard",
+    "workarounds:all",
+    ":semanticPrefixFixDepsChoreOthers",
+    ":ignoreModulesAndTests",
+    "schedule:nonOfficeHours",
+    "group:monorepos",
+    "group:recommended",
+    "group:definitelyTyped",
+    ":timezone(Asia/Tokyo)",
+    ":prConcurrentLimitNone",
+    ":prHourlyLimitNone",
+    ":preserveSemverRanges",
+    ":label(dependencies)",
+    ":separatePatchReleases"
   ],
   "packageRules": [
     {
