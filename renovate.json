@@ -13,7 +13,8 @@
     ":prHourlyLimitNone",
     ":preserveSemverRanges",
     ":label(dependencies)",
-    ":separatePatchReleases"
+    ":separatePatchReleases",
+    "github>akashic-games/renovate-config//engineFilesAlias/default"
   ],
   "packageRules": [
     {
