@@ -19,7 +19,7 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
-      "excludePackagePatterns": ["@akashic/akashic-engine"],
+      "ignoreDeps": ["@akashic/akashic-engine"],
       "groupName": "major testtt"
     }
   ]
