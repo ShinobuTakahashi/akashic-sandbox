@@ -13,10 +13,7 @@
     ":prHourlyLimitNone",
     ":preserveSemverRanges",
     ":label(dependencies)",
-    ":separatePatchReleases",
-    "github>akashic-games/renovate-config:groupPatchMinor",
-    "github>akashic-games/renovate-config:bumpAkashicPatch",
-    "github>akashic-games/renovate-config//engineFilesAlias/default"
+    ":separatePatchReleases"
   ],
   "packageRules": [
     {
