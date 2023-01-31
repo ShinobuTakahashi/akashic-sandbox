@@ -51,7 +51,7 @@
     "express-session": "^1.17.3"
   },
   "devDependencies": {
-    "@akashic/akashic-engine": "2.5.0",
+    "@akashic/akashic-engine": "3.9.3",
     "@akashic/eslint-config": "^1.0.1",
     "@akashic/sandbox-configuration": "^2.3.0",
     "@deboxsoft/cpx": "^1.5.0",
