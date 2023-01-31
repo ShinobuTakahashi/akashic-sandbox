@@ -1,26 +1,32 @@
 {
   "extends": [
-    ":dependencyDashboard",
-    "workarounds:all",
-    ":semanticPrefixFixDepsChoreOthers",
-    ":ignoreModulesAndTests",
-    "schedule:nonOfficeHours",
-    "group:monorepos",
-    "group:recommended",
-    "group:definitelyTyped",
-    ":timezone(Asia/Tokyo)",
-    ":prConcurrentLimitNone",
-    ":prHourlyLimitNone",
-    ":preserveSemverRanges",
-    ":label(dependencies)",
-    ":separatePatchReleases",
+    "github>akashic-games/renovate-config",
+    "github>akashic-games/renovate-config:groupPatchMinor",
+    "github>akashic-games/renovate-config:bumpAkashicPatch",
     "github>akashic-games/renovate-config//engineFilesAlias/default"
   ],
   "packageRules": [
     {
+      "matchPackagePatterns": ["eslint"],
+      "groupName": "eslint packages"
+    },
+    {
+      "matchUpdateTypes": ["patch"],
+      "excludePackagePatterns": ["engine-files-v\\d+", "@akashic/", "eslint"],
+      "groupName": "patch dependencies"
+    },
+    {
+      "matchUpdateTypes": ["minor"],
+      "excludePackagePatterns": ["engine-files-v\\d+", "@akashic/", "eslint"],
+      "groupName": "minor dependencies"
+    },
+    {
       "matchUpdateTypes": ["major"],
-      "excludePackageNames": ["@akashic/akashic-engine"],
-      "groupName": "major testtt"
+      "groupName": "major dependencies"
+    },
+    {
+      "matchPackageNames": ["@akashic/akashic-engine"],
+      "allowedVersions": "<3.0"  
     }
   ]
 }
