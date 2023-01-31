@@ -32,8 +32,9 @@
       "groupName": "minor dependencies"
     },
     {
-        "matchUpdateTypes": ["major"],
-        "excludePackagePatterns": ["@akashic/akashic-engine"]
+      "matchUpdateTypes": ["major"],
+      "excludePackagePatterns": ["@akashic/akashic-engine"],
+      "groupName": "major testtt"
     }
   ]
 }
