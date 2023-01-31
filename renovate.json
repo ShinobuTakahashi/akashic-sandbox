@@ -18,20 +18,6 @@
   ],
   "packageRules": [
     {
-      "matchPackagePatterns": ["eslint"],
-      "groupName": "eslint packages"
-    },
-    {
-      "matchUpdateTypes": ["patch"],
-      "excludePackagePatterns": ["engine-files-v\\d+", "@akashic/", "eslint"],
-      "groupName": "patch dependencies"
-    },
-    {
-      "matchUpdateTypes": ["minor"],
-      "excludePackagePatterns": ["engine-files-v\\d+", "@akashic/", "eslint"],
-      "groupName": "minor dependencies"
-    },
-    {
       "matchUpdateTypes": ["major"],
       "excludePackagePatterns": ["@akashic/akashic-engine"],
       "groupName": "major testtt"
