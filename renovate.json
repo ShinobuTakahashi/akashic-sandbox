@@ -5,6 +5,7 @@
     "github>akashic-games/renovate-config:bumpAkashicPatch",
     "github>akashic-games/renovate-config//engineFilesAlias/default"
   ],
+  "automerge": true,
   "packageRules": [
     {
       "matchPackagePatterns": ["eslint"],
@@ -21,12 +22,8 @@
       "groupName": "minor dependencies"
     },
     {
-      "matchUpdateTypes": ["major"],
-      "groupName": "major dependencies"
-    },
-    {
-      "matchPackageNames": ["@akashic/akashic-engine"],
-      "allowedVersions": "<3.0"  
+        "matchUpdateTypes": ["major"],
+        "excludePackagePatterns": ["@akashic/akashic-engine"]
     }
   ]
 }

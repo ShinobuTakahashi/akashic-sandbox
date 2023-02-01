@@ -1,6 +1,6 @@
 {
   "name": "@akashic/akashic-sandbox",
-  "version": "0.22.4",
+  "version": "0.22.3",
   "description": "Standalone runner for Akashic contents",
   "main": "index.js",
   "scripts": {
@@ -51,8 +51,8 @@
     "express-session": "^1.17.3"
   },
   "devDependencies": {
-    "@akashic/akashic-engine": "2.6.0",
-    "@akashic/eslint-config": "^1.1.0",
+    "@akashic/akashic-engine": "~2.6.6",
+    "@akashic/eslint-config": "^1.1.1",
     "@akashic/sandbox-configuration": "^2.3.0",
     "@deboxsoft/cpx": "^1.5.0",
     "@types/ejs": "^3.1.1",
@@ -65,10 +65,10 @@
     "@types/supertest": "^2.0.12",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "eslint": "^8.27.0",
-    "eslint-plugin-import": "2.27.0",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^27.1.5",
     "jasmine": "^4.5.0",
-    "supertest": "6.3.0",
+    "supertest": "^6.3.1",
     "typescript": "^4.9.3"
   }
 }
