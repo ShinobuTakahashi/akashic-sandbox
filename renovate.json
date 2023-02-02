@@ -22,6 +22,10 @@
       "groupName": "minor dependencies"
     },
     {
+      "matchUpdateTypes": ["major"],
+      "enabled": false
+    },
+    {
       "matchPackageNames": ["@akashic/akashic-engine"],
       "allowedVersions": "<3.0"  
     }
